@@ -24,7 +24,7 @@ function calculate() {
 
 function booking() {
   if (firstClassTicket.value === '0' && economyClassTicket.value === '0') {
-    alert('You do not buy any ticket yet.');
+    alert('You do not buy any ticket yet now.');
   } else {
     document.getElementById('footer').style.display = 'none';
     document.getElementById('booking-section').style.display = 'none';
